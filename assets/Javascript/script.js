@@ -56,13 +56,15 @@ pushMember(teamMembers)
 function inputMembers(object) {
   const { name, role, email, img } = object
   let markup = `
-            <div class="p-1">
+            <div class="p-2">
                 <div class=" bg-dark text-bg-dark d-flex">
-                    <img src="${img}" alt="" width="125" height="125" class="flex-shrink-0 flex-grow-0">
-                    <div class="p-1">
-                            <h4>${name}</h4>
-                        <P>${role}</P>
-                        <P class="text-primary">${email}</P>
+                    <img src="${img}" alt="" width="100" height="100" class="flex-shrink-0 flex-grow-0">
+                    <div class="px-2 pt-1">
+                        <h4>${name}</h4>
+                        <p>${role} <br> 
+                        <span class="text-primary">${email}</span>
+                        </p>
+                        
                     </div>
                 </div>
             </div>`
