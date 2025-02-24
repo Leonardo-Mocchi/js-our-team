@@ -78,21 +78,3 @@ function pushMember(defaultObject) {
     cardsEl.innerHTML += inputMembers(thisObject)
   }
 }
-
-
-/* for (let i = 0; i < teamMembers.length; i++) {
-  const element = teamMembers[i];
-  console.log(element);
-  cardsEl.innerHTML += `
-    <div class="p-1">
-        <div class="card bg-dark text-bg-dark d-flex">
-            <div class="card-body">
-                <img src=${Image} alt="" class="card-img-top">
-                <h3>${Name}</h3>
-                <P>${Job}</P>
-                <P class="text-primary">${email}</P>
-            </div>
-        </div>
-    </div>`
-}
- */
